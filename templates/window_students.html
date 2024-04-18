@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="static/stylish.css">
+    <title>Document</title>
+
+    
+</head>
+<body class="ALL_BACK_GROUND">
+
+
+
+    <div id="myModal" class="modal">
+        <div class="modal-content">
+            <span class="close"> </span>
+            <a class="window_add_in_window" href="/window_subject">Теми</a>
+            <a class="window_add_in_window" href="/dobavlenie_stud">Добавить студента</a>
+            <a class="window_add_in_window" href="/delete_the_predmet">Видалити предмет</a>
+            <a class="window_add_in_window" href="/get_login_password">Назад</a>
+        </div>
+    </div>
+
+
+    <div class="plaska_vsego">
+        <button id="openModal" class="modal_window">≡</button>
+        {%for a in thelist_name%}
+            <p class="name_predmeta_plaska" >{{a}}</p>
+        {%endfor%}
+        <div class="logo_container">
+            <a href="/get_login_password"><img class="logo_in_plaska_two" src="../static/images/main_logo.png"></a>
+        </div>
+    </div>
+
+
+
+    <div class="body_predmet">
+        
+        
+                
+                <br>
+                <div class="linia_middle_stud"></div>
+                {%for i in thespisok_studentov%}
+                <br><br>
+                <a class="student_href_person_infprmation" href="/stud_person_information?id={{i[0]}}">
+                <div class="krug_for_png">
+                    <p class="krug_png"></p>
+                </div>
+                <div class="rectangl_student">
+                    <p class="border_name"  >{{i[1]}}</p>
+                </div>
+                
+                <div class="rectangl_student">
+                    <p class="border_last_name">{{i[2]}}</p>
+                </div>
+                <div class="line_middle"></div>
+                <div class="rectangl_for_years_stud">
+                    <p class="border_years_st">Вік: {{i[3]}}</p>
+                </div>
+                </a>
+                <br><br>
+                <div class="linia_middle_stud"></div>
+
+                {%endfor%}
+                <br>
+                
+        
+        
+    </div>
+
+
+    {%if theradio_yes_no == 'no' or theradio_yes_no == 'yes' %}
+
+    
+    <div id="customModal" class="custom-modal">
+        <div class="content_in_modal">
+            <span class="custom-close" onclick="closeCustomModal()">&times;</span>
+            <p class="text_in_modal_del_pred">{{theitog_delete}}</p>
+        </div>
+    </div>
+
+    {%endif%}
+
+
+    <script src="static/my_javascript.js"></script>
+
+
+
+</body>
+</html>

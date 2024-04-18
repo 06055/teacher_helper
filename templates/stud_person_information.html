@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="static/stylish.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha384-r5F5kTGOaEqZBZHfTz/7u2S+P0A6t/bdVfc56fGuv5z5Tl/8Mn/kB5QVFGWw5zjQ" crossorigin="anonymous">
+
+    <title>Document</title>
+</head>
+<body class="ALL_BACK_GROUND">
+    
+
+
+    <div id="myModal" class="modal">
+        <div class="modal-content">
+            <span class="close"> </span>
+            <a class="window_add_in_window" href="/window_change_student_show?id={{theid_stud}}">Відредагувати студента</a>
+            <a class="window_add_in_window" href="/window_del_student_show?id={{theid_stud}}">Видалити студента</a>
+            <a class="window_add_in_window" href="/predmet_show?id_predmet={{theid_subject}}">Назад</a>
+        </div>
+    </div>
+
+
+    <div class="plaska_vsego">
+        <button id="openModal" class="modal_window">≡</button>
+        <a href="/get_login_password"><img class="logo_in_plaska" src="../static/images/main_logo.png" ></a>
+    </div>
+
+
+    <div class="body_predmet_two">
+        <br>
+
+
+        <p class="elips_stud">PNG</p>
+        <br><br>
+        <br>
+        {%for i in thespisok_person_infa%}
+        
+
+        <p class="person_infa">{{i[1]}}</p>
+        <p class="person_infa">{{i[2]}}</p>
+        <p class="person_infa">{{i[3]}}</p>
+        <p class="person_infa">{{i[4]}}</p>
+        <p class="note_stud">Примітка</p>
+
+        {%endfor%}
+        <a class="subject_stud" href="/show_person_stud_subject?id_stud={{theid_stud}}">{{thelist_name_thems}}</a>
+        <br>
+        <div class="linie_person_stud"></div>
+
+        <div class="progress-container">
+            <div class="progress-bar" id="progressBar"></div>
+            <div class="progress-text" id="progressText">0%</div>
+        </div>
+        
+        <br>
+        
+        
+    </div>
+
+
+
+    <script src="static/my_javascript.js"></script>
+    <script>
+        document.addEventListener("DOMContentLoaded", function () {
+            const totalTopics = {{ thelist_total_thems }};
+            const completedTopics = {{ thelist_have_zero_done }};
+    
+            const progressPercent = (completedTopics / totalTopics) * 100;
+    
+            const progressBar = document.getElementById("progressBar");
+            const progressText = document.getElementById("progressText");
+    
+            progressBar.style.width = progressPercent + "%";
+            progressText.innerHTML = progressPercent.toFixed(2) + "%";
+        });
+    </script>
+
+
+</body>
+</html>

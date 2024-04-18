@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="static/stylish.css">
+    <title>Document</title>
+</head>
+<body class="ALL_BACK_GROUND">
+    <div id="myModal" class="modal">
+        <div class="modal-content">
+            <span class="close"> </span>
+            <a class="window_add_in_window" href="/stud_person_information?id={{theid_stud_person}}">Назад</a>
+        </div>
+    </div>
+
+    <input type="hidden" name="id_stud" value="{{theid_stud_person}}">
+    <div class="plaska_vsego">
+        <button id="openModal" class="modal_window">≡</button>
+        <a href="/get_login_password"><img class="logo_in_plaska" src="../static/images/main_logo.png" ></a>
+    </div>
+
+        <div class="body_predmet">
+            <br>
+            {%if thestatus == 'yes' %}
+                {% for g in thelist_have_zero_one %}
+                    <label for="{{ g[0] }}">
+
+                        <a class="href_person_thema" href="/update_thema_show?id_thema={{g[0]}}&id_student={{theid_stud_person}}">{{ g[1] }}</a><br>
+                        <div class="custom-checkbox-line"></div>
+
+                    </label>
+                {% endfor %}
+
+                <form action="/id_checkbox" method="post" id="checkboxForm">
+
+                    {% for i in thelist_subject %}
+                        <label for="{{ i[0] }}">
+                            <div class="custom-checkbox">
+                                <input id="{{ i[0] }}" type="checkbox" name="id_thems[]" value="{{ i[0] }}">
+                                <span class="checkmark"></span>
+                                <label class="checkbox-text">{{ i[1] }}</label>
+                                
+                            </div>
+                            <div class="custom-checkbox-line"></div>
+                        </label>
+                    {% endfor %}
+                    <input class="submit_person_thema" type="submit" value="Зберегти">
+                    <input type="hidden" name="id_stud" value="{{theid_stud_person}}">
+                </form>
+            {%endif%}
+
+
+
+                    
+            {%if themodal_yes_no == 'yes' %}
+
+            <div id="customModal" class="custom-modal">
+                <div class="content_in_modal">
+                    <span class="custom-close" onclick="closeCustomModal()"><a class="href_in_modal" href="/stud_person_information?id={{theid_stud_person}}">&times;</a></span>
+                    <p class="text_in_modal_del_pred">{{the_itog}}</p>
+                    
+                </div>        
+            </div>
+            
+            {%endif%}
+        </div>
+        
+
+
+
+    <script src="static/my_javascript.js"></script>
+</body>
+</html>

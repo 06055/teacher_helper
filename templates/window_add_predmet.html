@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="static/stylish.css">
+    <title>Add Predmet</title>
+</head>
+<body class="ALL_BACK_GROUND">
+    
+    <a class="buttom_back" href="/get_login_password">←</a>
+    <div class="window_add_in_windows">
+        <a class="href_if_ne_nashel" href="/show_dobavlenie_predm">Якщо ви не знайшли свого предмета нажміть сюди</a>
+        <div class="setka_for_predmet">
+            {% for i in thespisok_predmets %}
+            <a class="href_predmet_buttom" href="/predmet?id={{i[0]}}&name={{i[1]}}">{{i[1]}}</a>
+            {% endfor %}
+            {% for g in thespisok_predmeto_imeet %}
+            <p class="window_predmeto_imeet">{{g[1]}}</p>
+            {% endfor %}
+        </div>
+    </div>
+    
+
+{%if theradio_yes_no == 'no' %}
+
+<div id="customModal" class="custom-modal">
+    <div class="content_in_modal">
+        <span class="custom-close" onclick="closeCustomModal()"><a class="href_in_modal" href="/get_login_password">&times;</a></span>
+        <p class="text_in_modal_del_pred">{{thesuccessful}}</p>
+    </div>        
+</div>
+
+{%endif%}
+<script src="static/my_javascript.js"></script>
+</body>
+</html>

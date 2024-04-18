@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="static/stylish.css">
+    <title>Document</title>
+</head>
+<body class="ALL_BACK_GROUND">
+    
+
+
+
+    <div class="square_for_delete_stud">
+        {%if thestatus == 'yes' %}
+        <form action="/window_change_subject" method="post">
+            <br>
+            <input type="hidden" name="id_subject" value="{{theid_subject}}">
+            <input class="window_add_subject_text" type="text" name="name_subject" value="{{thename_subject}}" required>
+            <br><br><br>
+            <input class="style_buttom_stud" type="submit" value="Відредагувати">
+        </form>
+        {%endif%}
+    </div>
+
+    {%if thestatus == 'no' %}
+
+    <div id="customModal" class="custom-modal">
+        <div class="content_in_modal">
+            <span class="custom-close" onclick="closeCustomModal()"><a class="href_in_modal" href="/window_subject">&times;</a></span>
+            <p class="text_in_modal_del_pred">{{theitog}}</p>
+            
+        </div>        
+    </div>
+
+    {%endif%}
+    <script src="static/my_javascript.js"></script>
+
+
+
+</body>
+</html>

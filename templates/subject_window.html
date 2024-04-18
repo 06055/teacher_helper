@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="static/stylish.css">
+    <title>Document</title>
+</head>
+<body class="ALL_BACK_GROUND">
+    
+
+
+    <div id="myModal" class="modal">
+        <div class="modal-content">
+            <span class="close"> </span>
+            <a class="window_add_in_window" href="/window_add_subject_show">Добавить тему</a>
+            <a class="window_add_in_window" href="/predmet_show?id_predmet={{theid_subject}}">Назад</a>
+        </div>
+    </div>
+
+
+    
+    <div class="plaska_vsego">
+        <button id="openModal" class="modal_window">≡</button>
+        <a href="/get_login_password"><img class="logo_in_plaska" src="../static/images/main_logo.png" ></a>
+    </div>
+
+
+
+    <div class="body_predmet_for_subject">
+        
+        {%for i in thelist_thems%}
+
+        <a class="href_in_plaska" href="/window_choice_subject?id_subject={{i[0]}}&name_sabject={{i[1]}}"><p class="checkbox-text">{{ i[1] }}</p></a>
+
+    <div class="custom-checkbox-line_window_subj"></div>
+
+
+        {%endfor%}
+        
+    </div>
+
+    {%if theback_modal  == 'yes' %}
+
+    <div id="customModal" class="custom-modal">
+        <div class="content_in_modal">
+            <span class="custom-close" onclick="closeCustomModal()">&times;</span>
+            <p class="text_in_modal_del_pred">{{theitog_add}}</p>
+            
+        </div>        
+    </div>
+    
+    {%endif%}
+    <script src="static/my_javascript.js"></script>
+
+
+
+
+</body>
+</html>

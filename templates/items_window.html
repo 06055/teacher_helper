@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="static/stylish.css">
+    <title>Головна сторінка</title>
+</head>
+<body class="ALL_BACK_GROUND">
+    
+
+    <div id="myModal" class="modal">
+        <div class="modal-content">
+            <span class="close"> </span>
+            <a class="window_add_in_window" href="/okno_dobavlenia_in_windows">Добавить предмет</a>
+
+        </div>
+    </div>
+
+
+
+
+    <div class="plaska_vsego">
+        <button id="openModal" class="modal_window">≡</button>
+        <a href="/get_login_password"><img class="logo_in_plaska" src="../static/images/main_logo.png" ></a>
+    </div>
+
+
+
+        <div id="content">
+            <form action="/predmet_show" method="get"> 
+
+                    <div class="body_predmet">
+                        
+                        <br><br>
+                        
+                        {%for i in thespisok_predmetov%}
+                        <a class="window_predmet_in_window" href="predmet_show?id_predmet={{i[0]}}">{{i[1]}}</a>
+                        {%endfor%}
+                        
+                    </div>
+            </form>
+        </div>
+    
+
+        <script src="static/my_javascript.js"></script>
+
+</body>
+</html>

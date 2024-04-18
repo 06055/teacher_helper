@@ -1,0 +1,1747 @@
+
+::-webkit-scrollbar{
+    width: 0;
+}
+
+
+.main_body_window{
+    background: linear-gradient(270deg, #3C6E71 0.11%, #1E2749 50%);
+
+}
+
+
+.ALL_BACK_GROUND {
+    background: linear-gradient(270deg, #12523c 0.11%, #1b2d3d 45.10%);
+}
+
+
+
+.main_name{
+    font-size: 60px;
+    margin-top: -50px;
+}
+
+.main_name, .main_abreviatur{
+
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+
+.main_abreviatur{
+    font-size: 30px;
+}
+
+.contac_main_window_MTC{
+    display: flex;
+    flex-direction: column;
+    margin-top: 15%;
+    margin-left: 70%;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 16px;
+    color: #FFF;
+
+}
+
+.contac_main_window_LIFE{
+    display: flex;
+    flex-direction: column;
+    margin-top: -10px;
+    margin-left: 60%;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 16px;
+    color: #FFF;
+}
+
+.contac_main_window_Kyevstar{
+
+    display: flex;
+    flex-direction: column;
+    margin-top: -10px;
+    margin-left: 60%;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 16px;
+    color: #FFF;
+}
+
+
+
+.logo_main_window{
+    display: flex;
+    width: 25%;
+    height: 25%;
+    margin-bottom: 30px;
+    margin-top: -16%;
+    margin-left: 38%;
+    
+}
+
+
+.name_predmeta_plaska {
+    display: flex;
+    margin-left: 40%;
+    margin-right: auto;
+    margin-top: -6%; 
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 28px;
+    font-weight: 700;
+    color: #ffffff;
+}
+
+.logo_container {
+    display: flex;
+    margin-top: -8.1%;
+    margin-left: 90%;
+
+}
+
+.logo_in_plaska{
+    display: flex;
+    width: 70px;
+    height: 70px;
+    margin-top: -7.5%;
+    margin-left: 90%;
+}
+
+.logo_in_plaska_two{
+    display: flex;
+    width: 70px;
+    height: 70px;
+
+}
+
+
+.logo_in_plaska img {
+    border-radius: 50%;
+}
+
+.enter_acc_href{
+    display: inline-block;
+    width: 13%;
+    height: 35px;
+
+    text-decoration: none;
+    background-color: #ffffff;
+    border-radius: 15px;
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    color: #3C6E71;
+    cursor: pointer;
+    transition: background-color 0.5s;
+    margin-left: auto;
+    margin-right: 1.5%;
+    margin-top: -44.5%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid transparent;
+}
+
+.regist_acc_href{
+    display: inline-block;
+    width: 13%;
+    height: 35px;
+
+    text-decoration: none;
+    background-color: #ffffff;
+    border-radius: 15px;
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    color: #3C6E71;
+    cursor: pointer;
+    transition: background-color 1s;
+    
+    margin-left: 70%;
+    margin-top: -2%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid transparent;
+}
+
+.href_in_modal{
+    text-decoration: none;
+    color: #000;
+}
+
+
+.regist_acc_href:hover, .enter_acc_href:hover{
+    background-color: rgba(255, 255, 255, 0.192);
+    color: #3d445b;
+    cursor: pointer;
+    border: 1px solid #000000;
+    
+
+
+}
+
+.informatio {
+    color: #FFF;
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 30px;
+    font-style: normal;
+    margin: 20px auto;
+    margin-top: 15%;
+    margin-left: 45%;
+    width: 50%;
+}
+
+
+.name_company{
+    display: flex;
+    width: 800px;
+    height: 660px;
+    flex-direction: column;
+    justify-content: center;
+    flex-shrink: 0;
+    color: #FFF;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 40px;
+    margin-top: 10%;
+
+    line-height: normal;
+    text-align: center; 
+    background-color: #1E2749;
+}
+
+::-webkit-scrollbar{
+
+    white-space: nowrap;
+}
+
+.header {
+    width: 100%;
+    height: 80px;
+    flex-shrink: 0;
+    border-bottom: 1px solid #000;
+    background: #7FD9D3;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    display: flex;
+    align-items: center;
+}
+
+.header_text {
+    flex: 1;
+    color: #FFF;
+    text-align: right; 
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 50px; 
+    font-weight: 400;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    margin-right: 40px;
+    
+}
+
+.vpishiti_name_predmet_header{
+
+    width: 350px;
+    height: 50px;
+    border: 2px solid #7FD9D3; 
+    border-radius: 20px;
+    background-color: #7FD9D3;
+
+
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+
+}
+
+.conteiner{
+    
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    margin-top: 15%;
+
+}
+
+.conteiner_reg{
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    height: 10%; 
+    margin: 0; 
+
+}
+
+
+.button-container {
+    display: flex;
+    justify-content: space-between; 
+    width: 100%; 
+}
+
+
+.text-input {
+    
+    width: 80%; 
+    margin-left: 9.5%;
+    padding: 9px; 
+    font-size: 16px; 
+    border: none; 
+    border-radius: 15px;
+    background-color: #ffffff;
+    color: #3C6E71;
+    font-weight: bold; 
+    font-size: 17px; 
+    
+}
+
+
+.text-input_regi{
+    width: 80%;
+    height: 35px;
+    margin-left: 9.5%;
+    margin-top: 2px;
+    padding: 9px;
+    font-size: 17px; 
+    border: none;
+    border-radius: 15px;
+    background-color: #ffffff;
+    color: #3C6E71;
+    font-weight: bold;
+}
+
+.text_input_stud{
+    width: 400px;
+    height: 30px;
+    margin-left: 9.5%;
+    margin-top: 2px;
+    padding: 9px;
+    font-size: 17px; 
+    border: none;
+    border-radius: 15px;
+    background-color: #ffffff;
+    color: #000000; 
+
+}
+
+.text_succesful{
+    
+    width: 80%; 
+    margin-left: 9.5%;
+    padding: 9px; 
+    font-size: 16px; 
+    border: none; 
+    border-radius: 15px;
+    background-color: #ffffff;
+
+    color:#7FD9D3; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+.square{
+
+    width: 500px;
+    height: 270px;
+    border: 3px solid rgba(0, 0, 0, 0.26); 
+    border-radius: 40px;
+    background-color: #1E2749;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+
+}
+
+
+.square_reg{
+
+    width: 500px;
+    height: auto;
+
+    border-radius: 40px;
+    background-color: #1E2749;
+    margin-top: 199px;
+
+}
+
+
+.square_succeful_reg{
+    width: 500px;
+    height: 100px;
+
+    border-radius: 20px;
+    background-color: #7FD9D3;
+}
+
+
+.square_for_add_predmet{
+    display: flex;
+    width: 400px;
+    height: 300px;
+    border-radius: 40px;
+    background-color: #1E2749;
+    box-shadow: 5px 5px 8px rgba(0, 0, 0, 0.5);
+    margin-top: 40px;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+
+.page_container {
+    position: relative;
+    display: flex;
+    justify-content: space-between; /* Расположение дочерних элементов с пространством между ними */
+    height: 95%; /* Высота контейнера на 95% от высоты body или viewport */
+}
+
+.right_block_container {
+    position: absolute;
+    
+    
+    margin-left: 57%;
+    width: 500px; /* Ширина правого блока */
+}
+
+.square_for_add_stud {
+    /* Удалите margin-top и margin-left, если они здесь были */
+    display: block; /* Или flex, если внутри есть элементы для выравнивания */
+    height: 400px;
+    border-radius: 40px;
+    background-color: #1E2749;
+    box-shadow: 5px 5px 8px rgba(0, 0, 0, 0.5);
+    margin-top: 45%
+}
+
+
+
+.square_for_header_for_add_predmet{
+    display:  flex;
+    margin-top: 5%;
+    text-align: center;
+    color: #ffffff;
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: center;
+
+    
+}
+
+
+.window_predmet_in_window{
+    display: flex;
+    width: 300px;
+    font-weight: bold;
+    background-color: #ffffff;
+    color: #3C6E71;
+    display: inline-block;
+    padding: 20.5px 20px;
+    text-decoration: none;
+    
+    border-radius: 20px;
+    text-align: center;
+    font-weight: 700;
+    font-size: 20px;
+    margin-top: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    cursor: pointer;
+    transition: background-color 0.5s, color 0.5s, border 0.5s;
+    border: 2px solid #ffffff;
+
+}
+
+
+.window_add_in_window {
+    width: 192px;
+    height: 30px;
+    font-weight: bold;
+
+    border-radius: 5px;
+    color: #000000;
+    display: inline-block;
+    margin-left: -15px;
+    text-decoration: none;
+
+    text-align: center;
+    font-weight: 700;
+    font-size: 20px;
+    margin-top: 5px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+    cursor: pointer;
+    transition: background-color 0.5s, color 0.5s, border 0.5s;
+
+    
+
+
+}
+
+
+
+.window_add_in_window:hover{
+    background: #63a8a500;
+    color: #fff;
+
+    cursor: pointer;
+}
+
+
+
+
+
+
+.custom_submit_logining {
+    width: 150px;
+    height: 40px;
+    border: none;
+    border-radius: 15px;
+    text-align: center;
+    background-color: #ffffff;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    color: #3C6E71;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    transition: background-color 0.5s;
+    margin-right: 54px;
+    
+}
+
+.custom_submit_regi{
+    width: 200px;
+    height: 40px;
+    border: none;
+    border-radius: 15px;
+    text-align: center;
+    background-color: #ffffff;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    color: #3C6E71;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    transition: background-color 0.5s;
+    margin-left: 140px;
+}
+
+.custom_submit_add_stud{
+    width: 200px;
+    height: 40px;
+    border: none;
+    border-radius: 15px;
+    text-align: center;
+    background-color: #ffffff;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    color: #3C6E71;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    transition: background-color 0.5s;
+    margin-left: 140px;
+    margin-top: 20px;
+}
+
+
+
+.registration_href {
+    display: inline-block;
+    width: 150px;
+    height: 40px;
+
+    text-decoration: none;
+    background-color: #ffffff;
+    border-radius: 15px;
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    color: #3C6E71;
+    cursor: pointer;
+    transition: background-color 0.5s;
+    margin-left: 45px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+
+.reg_ne_vse_polia_sapolnenu{
+    text-decoration: none;
+    color: #ff0000;
+    display: flex;
+    justify-content: center;
+    margin-top: -25px;
+    
+}
+
+
+.password_logi_error{
+    text-decoration: none;
+    color: #ff0000;
+    display: flex;
+    justify-content: center;
+    margin-top: -25px;
+}
+
+
+
+
+.plashka_predmet{
+    width: 100px;
+    height: 100px;
+    margin-top: -8px;
+    margin-left: -8px;
+
+    background-color: #ff0000;
+    
+}
+
+.plashka_information_user{
+    width: 200px;
+    height: 70px;
+    background-color: #ffffff;
+    margin-left: 1118px;
+    margin-top: -116px;
+    box-shadow: 3px 7px 5px rgba(0, 0, 0, 1); 
+    border-radius: 0px 0px 0px 20px;
+}
+.plashka_text_privet{
+
+    margin-top: 16px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-left: 15px;
+
+    font-size: 20px;
+}
+
+.plashka_text{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-left:3px ;
+    margin-left: 15px;
+    margin-top: -5px;
+
+}
+
+
+.body_predmet{
+    width: 50%;
+    height: 894px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: auto;
+
+    position: relative;
+
+    background: #1E2749;
+    background-size: cover;
+    
+}
+
+.body_predmet_two{
+    width: 50%;
+    height: 894px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: auto;
+
+    position: relative;
+
+    background: #1E2749;
+    background-size: cover;
+}
+
+
+.body_predmet_for_subject{
+    width: 50%;
+    height: 893px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 0%;
+    position: relative;
+
+    background: #1E2749;
+    background-size: cover;
+}
+
+.body_studentov {
+    display: flex;
+    
+    
+    flex-direction: column; /* Дочерние элементы идут друг за другом по вертикали */
+    width: 40%;
+    height: 95%;
+    position: absolute;
+    border-radius: 20px;
+    background: #1E2749;
+    box-shadow: 5px 5px 8px rgba(0, 0, 0, 0.5); 
+}
+
+.obwodka_body_studentov {
+    width: 96%;
+    height: 785px;
+    overflow-y: scroll;
+    border-radius: 20px;
+    border: 3px solid #FFF;
+    background: rgba(217, 217, 217, 0.00);
+    margin: 0 auto; /* Добавлено для центрирования */
+}
+
+.otstup_in_body_add_stud{
+
+    display: flex;
+    justify-content: center;
+    align-items: center; /* Это если вам также нужно центрирование по вертикали */
+    height: 100%; /* Убедитесь, что у родителя задана высота, если нужно вертикальное центрирование */
+
+    
+}
+
+.student_text_add_in_body{
+    display: flex;
+    width: 80%;
+    height: auto;
+    margin-left: 10px;
+    border-radius: 10px;
+    flex-shrink: 0;
+    color: #3C6E71;
+    font-weight: 700;
+    
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 25px;
+    background-color: #FFF;
+    
+
+}
+
+.student_buttom_add_in_body{
+    display: flex;
+    width: 110px;
+    height: 35px;
+    margin-left: auto;
+    margin-right: 1%;
+    margin-top: -71px;
+    text-align: center;
+    border-radius: 20px;
+    border-radius: 10px;
+    flex-shrink: 0;
+    color: #3C6E71;
+    font-weight: 700;
+    background-color: #FFF;
+    
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 19px;
+    transition: background-color 0.5s;
+}
+
+
+
+.text_has_stud{
+    display: flex;
+    width: 200px;
+    margin-top: -2%;
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: center;
+    color: #FFF;
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 20px;
+    font-style: normal;
+
+    line-height: normal;
+}
+
+.line_for_stud_add {
+    display: block; /* Элемент block-level для поддержания ширины и высоты */
+    width: 80%; /* Ширина линии должна соответствовать ширине родительского элемента */
+    height: 3px; /* Высота линии */
+    background-color: #FFF; /* Цвет линии */
+    margin: 0 auto; /* Автоматические внешние отступы для центрирования по горизонтали */
+    position: absolute; /* Абсолютное позиционирование */
+    left: 0; /* Выравнивание относительно левого края родительского элемента */
+    right: 0; /* Выравнивание относительно правого края родительского элемента */
+}
+
+
+
+.style_get_predmet {
+    width: 300px;
+    height: 35px;
+    margin-top: 40px;
+    margin-left: 50px;
+    border: 1px solid #ccc; 
+    border-radius: 15px;
+    padding: 5px; 
+    background-color: #ffffff; 
+    font-size: 16px; 
+    color: #333; 
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1); }
+
+
+.style_buttom {
+    width: 200px;
+    height: 35px;
+    margin-top: 50px; 
+    margin-left: 100px;
+    border: none; 
+    border-radius: 15px;
+    background-color: #ffffff; 
+    transition: background-color 0.5s;
+    color: #3C6E71;
+    font-size: 16px; 
+    cursor: pointer; 
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1); 
+}
+
+
+.style_buttom_stud{
+    width: 200px;
+    height: 35px;
+    margin-left: auto;
+    margin-right: auto;
+    border: none; 
+    border-radius: 15px;
+    background-color: #ffffff; 
+    transition: background-color 0.5s;
+    color: #3C6E71;
+    font-size: 20px; 
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    cursor: pointer; 
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1); 
+}
+
+.style_buttom_stud_red{
+    display: flex;
+    width: 300px;
+    height: 35px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;
+    border: none; 
+    border-radius: 15px;
+    font-weight: 700;
+    background-color: #ffffff; 
+    transition: background-color 0.5s;
+    color: #3C6E71;
+    font-size: 26px; 
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    cursor: pointer; 
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1); 
+    text-align: center;
+    
+}
+
+
+.vpishiti_name_predmet_header{
+    background-color: #1E2749;
+    border: 0px solid #ccc; 
+
+
+
+}
+
+.window_add_in_windows {
+    width: 50%;
+    height: 987px;
+    margin: -4.5% auto 0; /* Упрощенная запись для верхнего, правого/левого и нижнего отступов */
+    background: #1E2749;
+    overflow-y: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+}
+
+.setka_for_predmet {
+    display: grid;
+    grid-template-columns: repeat(4, 2fr);
+    gap: 3%;
+    margin-top: 40%;
+    width: 100%; 
+    height: 80%;
+}
+
+.href_if_ne_nashel{
+    display:  flex;
+    width: 720px;
+    height: 50px;
+    font-size: 25px;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+.href_if_ne_nashel, .href_predmet_buttom {
+    display: flex;
+    align-items: center; 
+    justify-content: center; 
+    background-color: #ffffff;
+    padding: 20.5px 20px;
+    text-decoration: none;
+    border-radius: 15px;
+    font-weight: 700;
+    color: #3C6E71;
+    cursor: pointer;
+    transition: background-color 0.5s;
+    margin-left: auto;
+    margin-right: auto;
+
+    white-space: nowrap;
+    overflow: hidden; 
+    text-overflow: ellipsis; 
+    max-width: 100%; 
+}
+
+.window_predmeto_imeet{
+    background-color: hsl(0, 0%, 34%);
+    display: flex;
+    padding: 20.5px 20px;
+    border-radius: 15px;
+    text-align: center;
+    font-weight: 700;
+    color: #989898;
+    cursor: pointer;
+    transition: background-color 0.5s;
+    align-items: center; 
+    justify-content: center; 
+    white-space: nowrap; 
+    text-overflow: ellipsis; 
+    max-width: 100%; 
+}
+
+
+
+
+.href_if_ne_nashel {
+    margin-top: 20px; 
+}
+
+.href_predmet_buttom, .window_predmeto_imeet {
+    width: 103px;
+    height: 40px;
+
+    margin-top: -300px; 
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+.href_predmet_buttom, .href_if_ne_nashel, .window_predmeto_imeet {
+    border: 2px solid transparent;
+}
+
+
+
+
+
+.buttom_back{
+    width: 45px;
+    height: 30px;
+    display: inline-block;
+    padding: 20.5px 20px;
+    text-decoration: none;
+    border-radius: 0px 0px 30px 0px;
+    text-align: center;
+    font-weight: 700;
+    background-color: #ffffff;
+    color: #3C6E71;
+    cursor: pointer;
+    transition: background-color 0.5s;
+    margin-top: -9px;
+    margin-left: -9px;
+    font-size: 40px;
+    border: 2px solid transparent;
+}
+
+.buttom_back:hover{
+    background-color: #1E2749;
+    color: #FFF;
+}
+
+.buttom_back_for_stud{
+    width: 10%;
+    height: 5%;
+    display: inline-block;
+
+    text-decoration: none;
+    border-radius: 18px 0px 20px 0px;
+    text-align: center;
+    font-weight: 700;
+    background-color: #ffffff;
+
+    cursor: pointer;
+    transition: background-color 0.5s;
+    margin-top: 0px;
+    margin-left: 0px;
+    font-size: 30px;
+    border: 2px solid transparent;
+}
+.buttom_back_for_stud:hover{
+    background-color: #3C6E71;
+    
+    color: #FFF;
+}
+
+
+.menu_vmeste_s_predmet{
+    width: 781px;
+    height: 60px;
+    background-color: #6b6969;
+    opacity: 50%;
+    border-radius: 45px 45px 0px 0px;
+    margin-left: 262px;
+    margin-top: 20px;
+}
+
+.logo_photo{
+    width: 100px;
+    height: 100px;
+}
+
+
+
+
+
+.href_predmet_buttom:hover,
+.href_if_ne_nashel:hover,
+.custom_submit_logining:hover,
+.registration_href:hover,
+.custom_submit_regi:hover,
+.style_buttom:hover,
+.custom_submit_add_stud:hover,
+.style_buttom_stud:hover,
+.style_buttom_stud_red:hover,
+.student_buttom_add_in_body:hover,
+.submit_person_thema:hover
+{
+    background: #3C6E71;
+    color: #fff;
+    
+    cursor: pointer;
+}
+
+.window_predmet_in_window:hover {
+    background: #3C6E71;
+    color: #fff;
+
+    cursor: pointer;
+}
+
+
+
+
+.plaska_vsego{
+    width: 49.2%;
+    height: 70px;
+
+    border-radius: 45px 45px 0px 0px;
+    border-top: 7px solid #1E2749;
+    border-right: 7px solid #1E2749;
+    border-left: 7px solid #1E2749;
+    background: #3C6D8F;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25) inset;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.href_in_plaska{
+    text-decoration: none;
+    color: #FFF;
+}
+
+
+.linia_middle_stud{
+    display: flex;
+    width: 90%;
+    height: 5px;
+    background-color: #ffffff;
+    border-radius: 5px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.linia_middle_stud_add{
+    width: 97%;
+    height: 5px;
+    background-color: #ffffff;
+    border-radius: 5px;
+    align-items: center;
+    margin-left: 10px;
+}
+
+.line_middle{
+    display: flex;
+    width: 120px;
+    height: 4px;
+    transform: rotate(90.286deg);
+    flex-shrink: 0;
+    stroke-width: 5px;
+    background-color: #FFF;
+    margin-left: 46%;
+    border-radius: 20px;
+    margin-top: -50px;
+}
+
+.modal_window{
+    width: 50px;
+    height: 70px;
+    margin-top: 0px;
+    background-color: #3C6D8F;
+    font-size: 50px;
+    border-radius: 38px 0px 0px 0px;
+}
+
+
+
+.modal {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+
+
+}
+
+.modal-content {
+    width: 9%;
+    height: 200px;
+    margin-left: 25.3%;
+    margin-top: 7.5%;
+    padding: 20px;
+    border: 1px solid #56565636;
+    border-radius: 10px;
+    position: relative;
+    overflow: hidden;
+}
+
+.modal-content::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: linear-gradient(rgba(138, 138, 138, 0.281), rgba(255, 255, 255, 0.305)), url('../static/images/pngtree-black-asphalt-highway-texture-texture-grain-effect-background-picture-image_1653022.jpg');
+    background-size: cover; 
+    background-position: center;
+    opacity: 0.85; 
+    z-index: -1; 
+}
+
+
+
+.custom-modal {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+
+}
+
+.content_in_modal{
+    width: 460px;
+    height: 100px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 13%;
+    padding: 20px;
+    border: 1px solid #56565636;
+    border-radius: 10px;
+
+    position: relative;
+    background-color: #716f6fb4;
+}
+
+.text_in_modal_del_pred{
+    color: #FFF;
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 20px;
+    font-style: normal;
+
+    line-height: normal;
+}
+
+
+
+
+.custom-close {
+    color: #000000;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.custom-close:hover,
+.custom-close:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+
+}
+
+.krug_for_png{
+    width: 100px;
+    height: 100px;
+    flex-shrink: 0;
+    background-color: #FFF;
+    border-radius: 60px;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25) inset;
+    color: #000;
+    margin-left: 4%;    
+    font-weight: 700;
+}
+
+.krug_png{
+
+    margin-top: -10px;
+    
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 15px;
+    font-style: normal;
+
+    line-height: normal;
+
+    
+
+}
+
+.rectangl_student{
+    width: 220px;
+    height: 35px;
+    flex-shrink: 0;
+    border-radius: 20px;
+    background: #FFF;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25) inset;
+
+    margin-left: 20%;
+}
+
+.square_for_delete_stud{
+    width: 500px;
+    height: 250px;
+    background-color: #1E2749;
+    margin-top: 10%;
+    margin-left: auto;
+    margin-right: auto;
+
+    text-align: center;
+    border-radius: 30px;
+    
+}
+
+.square_in_square_del_stud{
+    display: flex;
+    width: 450px;
+    height:90px;
+    background-color: #FFF;
+    border-radius: 30px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.text_delete_stud{
+    display: flex;
+    width: 420px;
+    height: 40px;
+    margin-left: auto;
+    margin-right: auto;
+    flex-shrink: 0;
+    color: #000000;
+    flex-direction: column;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 20px;
+    text-align: center;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.text_delete_name_last{
+    display: flex;
+    width: 100px;
+    height: 10px;
+    margin-left: auto;
+    margin-right: auto;
+
+    color: #000000;
+    flex-direction: column;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 20px;
+    text-align: center;
+    font-weight: 600;
+    line-height: normal;
+}
+.radio-label{
+    color: #ffffff;
+    flex-direction: column;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 20px;
+    text-align: center;
+    font-weight: 600;
+    line-height: normal;
+    margin-left: 40px;
+    margin-right: 40px;
+}
+
+.border_name{
+    display: flex;
+    width: 220px;
+    height: 40px;
+    margin-top: -43%;
+    margin-left: 10px;
+    flex-shrink: 0;
+    color: #3C6E71;
+
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 25px;
+
+    font-weight: 700;
+    line-height: normal;
+}
+
+.border_last_name{
+    display: flex;
+    width: 220px;
+    height: 40px;
+
+    color: #3C6E71;
+
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 25px;
+    margin-left: 10px;
+    font-weight: 700;
+    line-height: normal;
+}
+
+
+.student_href_person_infprmation{
+    text-decoration: none;
+}
+
+
+.border_years_st{
+    display: flex;
+    width: 120px;
+    height: 90px;
+    flex-direction: column;
+    justify-content: center;
+    flex-shrink: 0;
+    color: #3C6E71;
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    border-radius: 20px;
+    background: #FFF;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25) inset;
+    margin-left: 60%;
+    margin-top: -4%;
+}
+
+.border_years_st{
+    width: 120px;
+    height: 60px;
+
+}
+
+
+
+.square_for_add_subject{
+    width: 300px;
+    height: 250px;
+    background-color: #5c606d;
+    text-align: center;
+}
+
+.square_for_change_stud{
+    width: 500px;
+    height: 400px;
+    background-color: #1E2749   ;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 90px;
+    border-radius: 30px;
+
+}
+.square_text_red{
+    width: 450px;
+    height: 50px;
+    background-color: #ffffff;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    flex-direction: column;
+    display: flex;
+    border-radius: 25px;
+}
+
+.red_stud_text{
+
+    margin-top: 13px;
+    color: #3C6E71;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    
+
+}
+.text_change_stud{
+    display: flex;
+    width: 450px;
+    height: 40px;
+    flex-direction: column;
+    justify-content: center;
+    flex-shrink: 0;
+    color: #3C6E71;
+    background-color: #FFF;
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 26px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 30px;
+    margin-top: 10px;
+}
+
+
+.elips_stud{
+
+    width: 130px;
+    height: 130px;
+    background-color: #ffffff;
+    border-radius: 90px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+.person_infa{
+    display: flex;
+    width: 400px;
+    height: 50px;
+    flex-direction: column;
+    justify-content: center;
+    flex-shrink: 0;
+    color: #3C6E71;
+    background-color: #FFF;
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 26px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin-left: 5%;
+    border-radius: 30px;
+    margin-top: 2%;
+}
+
+
+.note_stud{
+    display: flex;
+    width: 250px;
+    height: 278px;
+    margin-left: auto;
+    margin-right: 5%;
+    background-color: #FFF;
+    margin-top: -32.6%;
+
+    border-radius: 30px;
+    text-align: center;
+    flex-direction: column;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 26px;
+    font-weight: 700;
+    color: #3C6E71;
+}
+
+
+.subject_stud{
+    text-decoration: none;
+    display: flex;
+
+    color: #FFF;
+
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    margin-top: 28%;
+    margin-left: 5%;
+}
+.linie_person_stud{
+    display: flex;
+    width: 90%;
+    height: 2px;
+    flex-shrink: 0;
+    stroke-width: 4px;
+    stroke: #FFF;
+    background-color: #FFF;
+    border-radius: 30px;
+    margin-top: -2%;
+    margin-left: 5%;
+    margin-bottom: 10px;
+    
+}
+
+
+
+.radio-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.custom-radio {
+    display: none; /* Скрыть стандартный внутренний input для radio */
+}
+
+.radio-label {
+    position: relative;
+    padding-left: 30px; /* Размер "контейнера" radio кнопки */
+    cursor: pointer;
+    font-size: 16px;
+    margin-bottom: 10px;
+    display: inline-block;
+}
+
+.radio-label:before {
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 20px; 
+    height: 20px;
+    border: 1.5px solid #1E2749; 
+    border-radius: 50%;
+    background-color: white; 
+    transition: background 0.3s;
+}
+
+.custom-radio:checked + .radio-label:before {
+    background-color: #1E2749; 
+    border-color: rgb(255, 255, 255); 
+    transition: background 0.3s;
+}
+
+
+.square_delete_predmete{
+    width: 400px;
+    height: 300px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 100px;
+    background-color: #1E2749;
+    border-radius: 30px;
+    text-align: center;
+}
+
+
+
+
+
+    .custom-checkbox {
+        margin-bottom: 10px; 
+        position: relative;
+        padding-left: 30px;
+        cursor: pointer;
+        display: block;
+    }
+
+    .custom-checkbox input {
+        position: absolute;
+        opacity: 0;
+        cursor: pointer;
+        height: 0;
+        width: 0;
+    }
+
+
+    .checkmark {
+        position: absolute;
+        top: 0;
+
+        height: 20px;
+        width: 20px;
+        background-color: #eee;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+        
+    }
+
+
+    .custom-checkbox input:checked ~ .checkmark:after {
+        content: '\2713';
+        font-size: 14px;
+        color: #333;
+        position: absolute;
+        font-size: 20px; 
+        top: -4px;
+        left: 3px;
+        font-weight: bold;
+        
+    }
+
+
+    .custom-checkbox:hover .checkmark {
+        background-color: #ddd;
+    }
+
+
+    .checkbox-text {
+        display: inline-block;
+        margin-left: 5%; 
+        vertical-align: top;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        font-weight: 500;
+        color: #FFF;
+    }
+
+
+    .custom-checkbox-line {
+        display: flex;
+        width: 90%;
+        height: 1px;
+        margin-left: auto;
+        margin-right: auto;
+        background-color: white;
+        margin-top: 10px; 
+        margin-bottom: 10px;
+        
+    }
+
+    .custom-checkbox-line_window_subj{
+
+        display: flex;
+        width: 90%;
+        height: 1px;
+        margin-left: auto;
+        margin-right: auto;
+        background-color: white;
+        margin-top: -5px; 
+        margin-bottom: -5px;
+    }
+
+
+
+.href_person_thema{
+    text-decoration: none;
+    color: #717171;
+    flex-direction: column;
+    justify-content: center;
+    font-weight: 500;
+
+    font-style: normal;
+
+    line-height: normal;
+    display: inline-block;
+    margin-left: 5%; 
+    vertical-align: top;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 500;
+
+}
+
+
+
+
+.submit_person_thema{
+    display: flex;
+    width: 150px;
+    height: 40px;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+    flex-direction: column;
+    font-style: normal;
+    background-color:#FFF;
+    border-radius: px;
+    border: 1px solid #fff;
+    font-size: 25px;
+    border-radius: 15px;
+    line-height: normal;
+    align-items: center;
+
+    cursor: pointer;
+    transition: background-color 0.5s;
+
+}
+
+
+.body_predmet {
+
+    overflow-y: scroll;
+
+}
+
+.window_predmet_in_window {
+    display: block;
+    margin-bottom: 10px; 
+}
+
+.window_add_subject_text{
+    display: flex;
+    width: 400px;
+    height: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;
+    padding: 5px;
+    font-size: 17px; 
+    border: none;
+    border-radius: 15px;
+    background-color: #ffffff;
+    color: #000000; 
+}
+
+.progress-container {
+    width: 90%;
+    border: 1px solid #ccc;
+    border-radius: 30px;
+    overflow: hidden;
+    margin-left: 5%;
+}
+
+.progress-bar {
+    display: flex;
+    height: 30px;
+    width: 0;
+    background-color: #4CAF50;
+    text-align: center;
+    line-height: 30px;
+    color: white;
+
+}
+
+.progress-text {
+    font-size: 14px;
+    text-align: center;
+    margin-top: -15px;
+    color: #FFF;
+}
+
+
+

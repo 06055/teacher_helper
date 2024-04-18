@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="static/stylish.css">
+    <title>add_stud</title>
+</head>
+<body class="ALL_BACK_GROUND">
+    
+    <div class="page_container"> 
+
+        <div class="body_studentov">
+            
+            <form id="studentForm" action="/dobavlenie_students_who_already" method="post">
+                <a class="buttom_back_for_stud" href="/predmet_show?id_predmet={{theid_subject}}">←</a>
+                <p class="text_has_stud">Вже існуючі студенти</p>
+                <div class="line_for_stud_add"></div>
+
+                <div class="otstup_in_body_add_stud">
+                    <div class="obwodka_body_studentov">
+
+                            <p>{{themessage}}</p>
+                            {% for i in thelist_has_stud %}
+                            <div class="student-info">
+                                <br>
+                                <input class="student_text_add_in_body" type="text" name="name" value="{{ i[1] }}  {{ i[2] }}" required readonly>
+                                <br><br>
+                                
+                                
+                                <input class="student_buttom_add_in_body" type="button" value="  Добавить" onclick="setIdAndSubmit('{{ i[0] }}')">
+                                <br>
+                                <div class="linia_middle_stud_add"></div>
+                            </div>
+                            {% endfor %}
+                            <br>
+                    </div>
+                </div>
+                <br>
+            </div>
+                <input type="hidden" name="id_student" id="id_student" value="">
+            </form>
+        
+            <script>
+                function setIdAndSubmit(studentId) {
+                    document.getElementById('id_student').value = studentId;
+                    document.getElementById('studentForm').submit();
+                }
+            </script>
+        </div>
+        
+        <div class="right_block_container">
+            <div class="square_for_add_stud">
+                <form action="/dobavlenie_stud" method="post">
+                    <br>
+                    <input type="text" name="name" class="text_input_stud" placeholder="Імя"required"><br>
+                    <br>
+                    <input type="text" name="last_name" class="text_input_stud" placeholder="Прізвище"required><br>
+                    <br>
+                    <input type="text" name="years_stud" class="text_input_stud" placeholder="Скільки років"required><br>
+                    <br>
+                    <input type="text" name="number_phone" class="text_input_stud" placeholder="Номер телефона"required><br>
+                    <br>
+                    <input type="submit" value="Добавить студента" class="custom_submit_add_stud">
+                </form>
+            </div>
+        </div>
+    </div>
+
+    {%if theradio_yes_no == 'no'  %}
+
+    <div id="customModal" class="custom-modal">
+        <div class="content_in_modal">
+            <span class="custom-close" onclick="closeCustomModal()">&times;</span>
+            <p class="text_in_modal_del_pred">{{theitog_delete}}</p>
+        </div>
+    </div>
+
+    {%endif%}
+
+
+    <script src="static/my_javascript.js"></script>
+</body>
+</html>
+

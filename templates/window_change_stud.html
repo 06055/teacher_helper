@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="static/stylish.css">
+    <title>Document</title>
+</head>
+<body class="ALL_BACK_GROUND">
+    <div class="square_for_change_stud">
+        {%if thestatus == 'yes' %}
+            <form action="/window_change_student" method="post">
+                <br>
+                <div class="square_text_red">
+                    <p class="red_stud_text">Редагування студента</p>
+                </div>
+                <br>
+                {%for i in thelist_change_stud%}
+                <input class="text_change_stud" type="hidden" name="id_stud" value="{{i[0]}}" required>
+                <input class="text_change_stud" type="text" name="name" value="{{i[1]}}" required>
+                <input class="text_change_stud" type="text" name="last_name" value="{{i[2]}}" required>
+                <input class="text_change_stud" type="text" name="years" value="{{i[3]}}" required>
+                <input class="text_change_stud" type="text" name="number_phone" value="{{i[4]}}" required>
+                <input class="style_buttom_stud_red" type="submit" value="          Відредагувати">
+                {%endfor%}
+            </form>
+        {%endif%}
+    </div>
+
+
+    {%if thestatus == 'no' %}
+
+    <div id="customModal" class="custom-modal">
+        <div class="content_in_modal">
+            <span class="custom-close" onclick="closeCustomModal()"><a class="href_in_modal" href="/stud_person_information?id={{theid_stud}}">&times;</a></span>
+            <p class="text_in_modal_del_pred">{{theitog}}</p>
+            
+        </div>        
+    </div>
+    
+    {%endif%}
+
+    <script src="static/my_javascript.js"></script>
+
+
+</body>
+</html>

@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="static/stylish.css">
+    <title>Delete Subject</title>
+</head>
+<body class="ALL_BACK_GROUND">
+    
+
+
+    <div class="square_for_delete_stud">
+
+        {%if thestatus == 'yes' %}
+        <form action="/udalenie_end" method="post">
+            <br>
+            
+            {%for i in thespisok_predmete_delete%}
+            <div class="square_in_square_del_stud">
+                <p class="text_delete_stud">Ви дісно хочете видалити цей предмет: {{i[1]}}</p>
+            </div>
+
+            {%endfor%}
+            <br>
+            <input class="custom-radio" id="radio1" type="radio" value="yes" name="radio_yes_no" checked>
+            <label for="radio1" class="radio-label">Т а к</label>
+    
+            <input class="custom-radio" id="radio2" type="radio" value="no" name="radio_yes_no">
+            <label for="radio2" class="radio-label">Н І</label>
+            <br><br>
+
+            <input class="style_buttom_stud" type="submit" value="Видалити">
+            <br><br>
+
+        </form>
+        {%endif%}
+    </div>
+
+
+    {%if theradio_yes_no == 'no' or thestatus == 'net' %}
+
+    <div id="customModal" class="custom-modal">
+        <div class="content_in_modal">
+            <span class="custom-close" onclick="closeCustomModal()"><a class="href_in_modal" href="/get_login_password">&times;</a></span>
+            <p class="text_in_modal_del_pred">{{thedel_predmet}}</p>
+            
+        </div>        
+    </div>
+    {%endif%}
+
+    <script src="static/my_javascript.js"></script>
+
+</body>
+</html>

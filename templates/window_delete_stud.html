@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="static/stylish.css">
+    <title>Document</title>
+</head>
+<body class="ALL_BACK_GROUND">
+    <div class="square_for_delete_stud">
+        {%if thestatus == 'yes' %}
+            <form action="/delete_stud_end" method="post">
+                    <input type="hidden" name="id_stud" value="{{ the_ID_stud }}">
+                    
+                    {% for i in thelist_name_last %}
+                        <br>
+                        <div class="square_in_square_del_stud">
+                            <p class="text_delete_stud">Ви дісно хочете видалити цього студента: {{ i[0] }} {{ i[1] }}</p>
+                        </div>
+
+                        
+                        <br>
+                        <input class="custom-radio" id="radio1" type="radio" value="yes" name="radio_yes_no" checked>
+                        <label for="radio1" class="radio-label">Т а к</label>
+                
+                        <input class="custom-radio" id="radio2" type="radio" value="no" name="radio_yes_no">
+                        <label for="radio2" class="radio-label">Н І</label>
+                        <br><br>
+                        
+                        <input class="style_buttom_stud" type="submit" value="Видалити">
+                    {% endfor %}
+        {%endif%}
+
+            </form>
+    </div>
+
+
+
+    {%if thestatus == 'no' %}
+
+    <div id="customModal" class="custom-modal">
+        <div class="content_in_modal">
+            <span class="custom-close" onclick="closeCustomModal()"><a class="href_in_modal" href="/predmet_show?id_predmet={{theid_subject}}">&times;</a></span>
+            <p class="text_in_modal_del_pred">{{theitog_delete}}</p>
+            
+        </div>        
+    </div>
+    
+    {%endif%}
+
+
+    <script src="static/my_javascript.js"></script>
+
+
+</body>
+</html>
