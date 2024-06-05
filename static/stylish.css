@@ -386,8 +386,8 @@
 .page_container {
     position: relative;
     display: flex;
-    justify-content: space-between; /* Расположение дочерних элементов с пространством между ними */
-    height: 95%; /* Высота контейнера на 95% от высоты body или viewport */
+    justify-content: space-between; 
+    height: 95%; 
 }
 
 .right_block_container {
@@ -395,12 +395,12 @@
     
     
     margin-left: 57%;
-    width: 500px; /* Ширина правого блока */
+    width: 500px; 
 }
 
 .square_for_add_stud {
-    /* Удалите margin-top и margin-left, если они здесь были */
-    display: block; /* Или flex, если внутри есть элементы для выравнивания */
+    
+    display: block; 
     height: 400px;
     border-radius: 40px;
     background-color: #1E2749;
@@ -671,16 +671,17 @@
 
 .body_studentov {
     display: flex;
-    
-    
-    flex-direction: column; /* Дочерние элементы идут друг за другом по вертикали */
+    flex-direction: column;
     width: 40%;
-    height: 95%;
+    height: 920px;
     position: absolute;
     border-radius: 20px;
     background: #1E2749;
-    box-shadow: 5px 5px 8px rgba(0, 0, 0, 0.5); 
+    box-shadow: 5px 5px 8px rgba(0, 0, 0, 0.5);
+
 }
+
+
 
 .obwodka_body_studentov {
     width: 96%;
@@ -689,15 +690,15 @@
     border-radius: 20px;
     border: 3px solid #FFF;
     background: rgba(217, 217, 217, 0.00);
-    margin: 0 auto; /* Добавлено для центрирования */
+    margin: 0 auto; 
 }
 
 .otstup_in_body_add_stud{
 
     display: flex;
     justify-content: center;
-    align-items: center; /* Это если вам также нужно центрирование по вертикали */
-    height: 100%; /* Убедитесь, что у родителя задана высота, если нужно вертикальное центрирование */
+    align-items: center; 
+    height: 100%; 
 
     
 }
@@ -758,14 +759,14 @@
 }
 
 .line_for_stud_add {
-    display: block; /* Элемент block-level для поддержания ширины и высоты */
-    width: 80%; /* Ширина линии должна соответствовать ширине родительского элемента */
-    height: 3px; /* Высота линии */
-    background-color: #FFF; /* Цвет линии */
-    margin: 0 auto; /* Автоматические внешние отступы для центрирования по горизонтали */
-    position: absolute; /* Абсолютное позиционирование */
-    left: 0; /* Выравнивание относительно левого края родительского элемента */
-    right: 0; /* Выравнивание относительно правого края родительского элемента */
+    display: block; 
+    width: 80%; 
+    height: 3px;
+    background-color: #FFF; 
+    margin: 0 auto; 
+    position: absolute;
+    left: 0; 
+    right: 0; 
 }
 
 
@@ -849,7 +850,7 @@
 .window_add_in_windows {
     width: 50%;
     height: 987px;
-    margin: -4.5% auto 0; /* Упрощенная запись для верхнего, правого/левого и нижнего отступов */
+    margin: -4.5% auto 0; 
     background: #1E2749;
     overflow-y: auto;
     display: flex;
@@ -1514,12 +1515,12 @@
 }
 
 .custom-radio {
-    display: none; /* Скрыть стандартный внутренний input для radio */
+    display: none; 
 }
 
 .radio-label {
     position: relative;
-    padding-left: 30px; /* Размер "контейнера" radio кнопки */
+    padding-left: 30px; 
     cursor: pointer;
     font-size: 16px;
     margin-bottom: 10px;

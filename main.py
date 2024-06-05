@@ -433,7 +433,6 @@ def okno_dobavlenia_stud():
             for j in uniquet_list:
                 _SQL = """INSERT INTO relation_sybject_user_predmet_stud(id_user,id_predmet,id_student,id_subject,progress_bar) VALUES(%s,%s,%s,%s,%s)"""
                 cursor.execute(_SQL,(id_user,id_subject,id_stud,j[0],0))
-                print(_SQL)
                 dbc.commit()
 
 
