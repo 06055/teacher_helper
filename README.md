@@ -80,21 +80,14 @@ Contributions are welcome! Feel free to open an issue or submit a Pull Request o
 
 ## Ліцензія / License
 
-Проєкт розповсюджується під ліцензією **MIT License**. Зміст ліцензії дозволяє вільно використовувати, копіювати та модифікувати програмне забезпечення【8†L32-L40】.  
+Проєкт розповсюджується під ліцензією MIT License. Зміст ліцензії дозволяє вільно використовувати, копіювати та модифікувати програмне забезпечення.
 
-This project is licensed under the **MIT License**【8†L32-L40】, which permits free use, copying, and modification of the software.
+This project is licensed under the MIT License, which permits free use, copying, and modification of the software.
 
 ## Автор / Author
 
 Автор
-
 GitHub: https://github.com/06055
-
-Проєкт створений з навчальною метою для вивчення Python та Pygame. Ліцензія: MIT — можна використовувати, поширювати та змінювати з вказанням автора.
 
 Author
-
 GitHub: https://github.com/06055
-
-This project was created for learning purposes to practice Python and Pygame. License: MIT — free to use, distribute, and modify with attribution.
-
